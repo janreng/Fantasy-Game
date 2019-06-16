@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05da8f493065f354c877dcae290618da, type: 3}
+  m_Name: Shoulder
+  m_EditorClassIdentifier: 
+  name: Shoulder
+  icon: {fileID: 21300000, guid: f126324fd2486a641842ea5a8244c2d1, type: 3}
+  prefab:
+  - {fileID: 100000, guid: 91946a43b95d9844a81c4f495a0232e8, type: 3}
+  - {fileID: 100000, guid: 50174e5edafc63747919105a8d014c6c, type: 3}
+  type: 4
+  damage: 0
+  defense: 3
+  health: 5
+  classType: 3
+  price: 2
+  level: 1

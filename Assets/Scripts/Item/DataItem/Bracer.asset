@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05da8f493065f354c877dcae290618da, type: 3}
+  m_Name: Bracer
+  m_EditorClassIdentifier: 
+  name: Bracer
+  icon: {fileID: 21300000, guid: 70a77abda853dd941a0c8debf1de9b04, type: 3}
+  prefab:
+  - {fileID: 100000, guid: 6cc6f7346c7e8ac49849c5cec0f8f96b, type: 3}
+  - {fileID: 100000, guid: e5bfff5ca11acdc40af1fe63b76e235c, type: 3}
+  type: 5
+  damage: 0
+  defense: 2
+  health: 5
+  classType: 3
+  price: 2
+  level: 1

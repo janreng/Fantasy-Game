@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 943dd995b3229414bba200917a9a1ee4, type: 3}
+  m_Name: Quest2
+  m_EditorClassIdentifier: 
+  name: "Ti\xEAu di\u1EC7t qu\xE1i"
+  level: 2
+  order: 2
+  description: "\u0110i \u0111\u1EBFn v\xF9ng \u0111\u1EA5t c\u1EE7a qu\xE1i v\u1EADt
+    v\xE0 di\u1EC7t b\u1ECDn n\xF3"
+  state: 0
+  exePlace: {x: 0, y: 0, z: 0}
+  receivePlace: {x: 0, y: 0, z: 0}
+  payPlace: {x: 0, y: 0, z: 0}
+  exp: 20
+  gold: 20
+  items: []

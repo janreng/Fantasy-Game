@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 943dd995b3229414bba200917a9a1ee4, type: 3}
+  m_Name: Quest1
+  m_EditorClassIdentifier: 
+  name: "T\xECm nh\xE0 Th\u1EE3 r\xE8n"
+  level: 0
+  order: 1
+  description: "T\xECm \u0111\u1EBFn nh\xE0 Th\u1EE3 r\xE8n \u0111\u1EC3 nh\u1EADn
+    c\xE1c trang b\u1ECB s\u01A1 c\u1EA5p"
+  state: 0
+  exePlace: {x: 0, y: 0, z: 0}
+  receivePlace: {x: -16.6, y: 0.5, z: -37.1}
+  payPlace: {x: 0, y: 0, z: 0}
+  exp: 2000
+  gold: 10
+  items:
+  - {fileID: 11400000, guid: 4be61be8b703aad45a2524d4ce4ad835, type: 2}
+  - {fileID: 11400000, guid: 1a071a0bd9183fa4d9be98ce495a047f, type: 2}
+  - {fileID: 11400000, guid: 327020e47ae237544a7b6d7395e40b1d, type: 2}
+  - {fileID: 11400000, guid: 430219a032f31c04cbada357790d8341, type: 2}
+  - {fileID: 11400000, guid: a0fde59ad7a5bf744bc5256ce7188a73, type: 2}
+  - {fileID: 11400000, guid: 5dfccaaaf38c3394c89ae8460505d9d1, type: 2}
+  - {fileID: 11400000, guid: 13c661d2ccbb8ae4abb9de4c4b1b7c57, type: 2}
+  - {fileID: 11400000, guid: a0e4eb6242d278f4c876f95d1e4a4c53, type: 2}
