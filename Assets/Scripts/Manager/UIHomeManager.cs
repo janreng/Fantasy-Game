@@ -10,7 +10,6 @@ public class UIHomeManager : MonoBehaviour
     [SerializeField] Button btnPlay;
     [SerializeField] Text txtNameCharacter;
     [SerializeField] PopupManager popupManager;
-    [SerializeField] Slider sliderAttack, sliderArmor, sliderHealth;
 
     [Header("Select Character")]
     [SerializeField] Button btnArcher;
@@ -43,24 +42,6 @@ public class UIHomeManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if (characterAttribute != null)
-        {
-            if (sliderAttack.value < characterAttribute.damage / 10)
-                sliderAttack.value += 0.01f;
-            if (sliderAttack.value > characterAttribute.damage / 10)
-                sliderAttack.value -= 0.01f;
-            if (sliderArmor.value < characterAttribute.armor / 10)
-                sliderArmor.value += 0.01f;
-            if (sliderArmor.value > characterAttribute.armor / 10)
-                sliderArmor.value -= 0.01f;
-            if (sliderHealth.value < characterAttribute.health / 100)
-                sliderHealth.value += 0.01f;
-            if (sliderHealth.value > characterAttribute.health / 100)
-                sliderHealth.value -= 0.01f;
-        }
-    }
 
     void ClickPlay()
     {
